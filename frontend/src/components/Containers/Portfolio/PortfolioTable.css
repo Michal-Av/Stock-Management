@@ -1,0 +1,90 @@
+.holdings-table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.holdings-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.holdings-table th, .holdings-table td {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.holdings-table tr:nth-child(even) {
+  background-color: #f5f9fa;
+}
+
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quantity-button {
+  cursor: pointer;
+  font-size: 16px;
+  color: #000;
+}
+
+.quantity-button:hover {
+  color: #40a9ff;
+}
+
+.delete-button {
+  cursor: pointer;
+  color: red;
+}
+
+.delete-button:hover {
+  color: darkred;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+.holdings-table {
+  width: 100%;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.action-buttons {
+  
+  row-gap: 10px;
+}
+
+.title-action{
+  cursor: pointer;
+}
+
+.title-action:hover{
+
+  color: #1890ff;
+}
+
+
+.quantity-button, .view-button, .delete-button {
+  cursor: pointer;
+  font-size: 18px;
+  padding-left: 5px;
+  color: #1890ff; /* Blue color for icons */
+}
+
+.delete-button {
+  color: red; /* Red color for delete button */
+}

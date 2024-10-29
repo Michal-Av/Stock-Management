@@ -1,0 +1,17 @@
+.portfolio-page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.search-section {
+  width: 20%;
+}
+
+.portfolio-section {
+  padding: 20px;
+
+  width: 75%;
+}

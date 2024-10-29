@@ -1,0 +1,51 @@
+.stock-details-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.stock-info {
+  width: 30%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stock-statistics {
+  width: 65%;
+}
+
+.statistics-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.statistics-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.statistics-table tr:nth-child(even) {
+  background-color: #f5f9fa;
+}
+
+/* src/styles/StockDetailsPage.css */
+.back-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #e0e0e0;
+}
+

@@ -1,0 +1,36 @@
+.portfolio-overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overview-stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Distribute the stats evenly across the container */
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+  
+  .overview-item {
+    text-align: center;
+    padding: 0 15px;
+  }
+  
+  .overview-stats span.positive {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .overview-stats span.negative {
+    color: red;
+    font-weight: bold;
+  }
+  /* .title-overview{
+    margin-top: 15px; 
+  } */
+  

@@ -1,0 +1,24 @@
+.portfolio-page-container {
+  display: flex;
+  justify-content: space-between; /* Space between the two sections */
+  padding: 20px;
+  gap: 20px; /* Space between the sections */
+}
+
+.search-section, .portfolio-section {
+  flex: 1; /* Ensure both sections take equal space */
+  
+}
+
+.search-section {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 20%;
+  height: 90vh;
+}
+
+.portfolio-section {
+
+  max-width: 80%;
+}
