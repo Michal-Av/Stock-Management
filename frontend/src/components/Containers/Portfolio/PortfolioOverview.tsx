@@ -17,6 +17,10 @@ const PortfolioOverview: React.FC<PortfolioOverviewProps> = ({
   realizedGainLoss,
 }) => (
 <div>
+
+  {/* Hard coded random values
+    * TODO: use data to calculate correct values and disply it
+  ***/}
 <h1 className='title-overview'>Hi Avi, wellcome back!</h1>
   <div className="portfolio-overview">
     <h2>${totalValue.toFixed(2)} </h2>
